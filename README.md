@@ -4,7 +4,7 @@
   
 ### *Specifications:*  
   
-- 🔲 The user must be able to login(mock login using guest@email.com with pw: Pass123).  
+- ✅ The user must be able to login(mock login using guest@email.com with pw: Pass123).  
 - ✅ After login the user must be able to view all appointments.  
 - ✅ The user can add appointment with the details Name, Date, Status(Pending(default) or Completed).  
 - ✅ The user must be able to toggle the status to Completed to Pending vise versa.  
@@ -25,8 +25,8 @@ https://github.com/multisyscorp/fe-exam-mock-server
 <br />  
 
 *Applicant's notes:*
-> Unfortunately, I used bootstrap. Only because I was more used to it, I plan to switch it to Tailwind before deadline.<br />
-> Login is currently unavailable. As contingency, I made a "continue as free user" button to navigate to the calendar app page.
+> Unfortunately, I used bootstrap. Only because I was more used to it, I plan to switch it to Tailwind before deadline.<br /><br />
+> Login is currently available but without a proper REST API implementation for login auth. As a contingency, I made a "continue as free user" button to navigate to the calendar app page.
 
   
 -ReactQuery + Axios  
