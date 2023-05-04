@@ -1,7 +1,15 @@
 # Multisys Front End Exam
 ## My Calendar App
 
-  
+### SAMPLE SCREENSHOTS OF FINAL VERSION
+<img src = 'https://user-images.githubusercontent.com/110161745/236275609-d624ff9e-54e1-422f-8777-7735d275ff67.PNG' width=800px>
+<img src = 'https://user-images.githubusercontent.com/110161745/236275890-5b8b73fd-2142-4f04-8d74-3efb28251251.png' width=800px>
+<img src = 'https://user-images.githubusercontent.com/110161745/236275901-c3b8d66c-d445-49aa-ad1c-149fe61a6f46.png' width=800px>
+
+
+
+
+
 ### *Specifications:*  
   
 - ✅ The user must be able to login(mock login using guest@email.com with pw: Pass123).  
