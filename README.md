@@ -20,8 +20,8 @@
   
 *Bonus Features:*  
   
--The user must be able to filter the list by status, search by keyword, and sort by date  
--When deleting an appointment, There must be a confirmation message  
+- ✅ The user must be able to filter the list by status, search by keyword, and sort by date  
+- ✅ When deleting an appointment, There must be a confirmation message  
   
 ### *Requirements:*  
 - ✅ ReactJS(hooks and context)  
