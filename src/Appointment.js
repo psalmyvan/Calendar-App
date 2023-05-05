@@ -13,11 +13,18 @@ function App() {
   const [sortTag, setTag] = useState('Task ID');
 
   // DATE
-  const [date1, setDate] = useState('yyyy-mm-dd');
+  const [date1, setDate] = useState('');
   const dateInputRef = useRef(null);
 
   const handleChange = (e) => {
-  setDate(e.target.value);
+    var temp = convertDate(e.target.value);
+    setDate(temp);
+};
+function convertDate(dateN){
+  const mon = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  var m = mon[parseInt(dateN.substring(5,7))+1];
+  var final = m +" "+ dateN.substring(8,10) + ", " + dateN.substring(0,4);
+  return final;
 };
 // DATE END
   //                Temp State
@@ -41,7 +48,6 @@ function App() {
     var newTodo = holdtoDo.filter(function (a) {
       return a.title.toUpperCase().includes(newTask.toUpperCase());
     });
-    // var matches = holdtoDo.filter(holdtoDo, function( s ) { return s.indexOf( 'thi' ) !== -1; });
     setToDo(newTodo);
   }
   const filterTaskA = () => {
@@ -126,7 +132,7 @@ function App() {
     setUpdateData('');
   }
   const backStyle = {
-        color: 'white'
+        color: 'maroon'
     };
   
   return (
